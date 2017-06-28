@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.dsitu.mygold",
+               "sha256_cert_fingerprints": ["E4:3A:AE:2E:45:F5:80:50:26:D0:77:59:DE:44:B2:85:D4:AE:2E:DB:97:26:DD:5E:4D:C4:80:49:AE:83:A7:66"] }
+}]
