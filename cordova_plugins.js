@@ -51,15 +51,6 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/ionic-plugin-keyboard/www/browser/keyboard.js",
-        "id": "ionic-plugin-keyboard.keyboard",
-        "pluginId": "ionic-plugin-keyboard",
-        "clobbers": [
-            "cordova.plugins.Keyboard"
-        ],
-        "runs": true
-    },
-    {
         "file": "plugins/ionic-plugin-deeplinks/www/deeplink.js",
         "id": "ionic-plugin-deeplinks.deeplink",
         "pluginId": "ionic-plugin-deeplinks",
@@ -73,6 +64,15 @@ module.exports = [
         "id": "ionic-plugin-deeplinks.IonicDeeplinkProxy",
         "pluginId": "ionic-plugin-deeplinks",
         "runs": true
+    },
+    {
+        "file": "plugins/ionic-plugin-keyboard/www/browser/keyboard.js",
+        "id": "ionic-plugin-keyboard.keyboard",
+        "pluginId": "ionic-plugin-keyboard",
+        "clobbers": [
+            "cordova.plugins.Keyboard"
+        ],
+        "runs": true
     }
 ];
 module.exports.metadata = 
@@ -85,8 +85,8 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "4.0.3",
     "cordova-plugin-statusbar": "2.2.2",
     "cordova-plugin-whitelist": "1.3.1",
-    "ionic-plugin-keyboard": "2.2.1",
-    "ionic-plugin-deeplinks": "1.0.15"
+    "ionic-plugin-deeplinks": "1.0.15",
+    "ionic-plugin-keyboard": "2.2.1"
 }
 // BOTTOM OF METADATA
 });

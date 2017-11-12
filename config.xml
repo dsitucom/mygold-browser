@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.dsitu.mygold" version="0.0.12" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <feature name="Device">
-        <param name="browser-package" value="Device" />
-    </feature>
     <name>MyGold</name>
     <description>Gold Wealth Protector</description>
     <author email="ihsanberahim@gmail.com" href="http://m.me/ihsanberahim/">Ihsan Berahim</author>
@@ -17,6 +14,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="http://192.168.0.183:8100" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
