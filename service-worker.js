@@ -14,6 +14,11 @@ self.toolbox.options.cache = {
 // pre-cache our key assets
 self.toolbox.precache(
   [
+    'https://beqbhwfln5.execute-api.us-east-2.amazonaws.com/Prod/my',
+    'https://beqbhwfln5.execute-api.us-east-2.amazonaws.com/Prod/sg',
+    'https://beqbhwfln5.execute-api.us-east-2.amazonaws.com/Prod/id',
+    'https://beqbhwfln5.execute-api.us-east-2.amazonaws.com/Prod/my/contacts',
+    'https://beqbhwfln5.execute-api.us-east-2.amazonaws.com/Prod/my/events',
     './build/main.js',
     './build/main.css',
     './build/polyfills.js',
