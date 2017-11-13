@@ -1,11 +1,11 @@
 {
-  "name": "PublicGold",
-  "short_name": "PG",
+  "name": "PublicGold - Mini App",
+  "short_name": "PublicGold",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
-    "src": "mstile-150x150.png",
-    "sizes": "150x150",
+    "src": "android-chrome-512x512.png",
+    "sizes": "512x512",
     "type": "image/png"
   }],
   "background_color": "#970003",
