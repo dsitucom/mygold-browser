@@ -5,16 +5,12 @@
     <author email="ihsanberahim@gmail.com" href="http://m.me/ihsanberahim/">Ihsan Berahim</author>
     <content src="index.html" />
     <access origin="*" />
-    <allow-navigation href="http://ionic.local/*" />
-    <allow-navigation href="http://192.168.1.5:8100" />
-    <allow-navigation href="http://192.168.43.221:8100" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="http://192.168.0.183:8100" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
